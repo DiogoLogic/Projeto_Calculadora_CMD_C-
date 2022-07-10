@@ -20,7 +20,7 @@ namespace HelloWord
                 //Exiba o menu
 
 
-                Console.WriteLine("Seja bem vindo a calculadora, selecione uma das opções," +
+                Console.WriteLine("Seja bem vindo a calculadora CMD, selecione uma das opções," +
                     " aperte ENTER para continuar e fazer as operações. \n");
                 //Console.WriteLine("");
                 Console.WriteLine("1-Soma\n2-Subtracao\n3-Divisao\n4-Multiplcao\n5-Potencia\n6-Raiz\n7-Sair");
