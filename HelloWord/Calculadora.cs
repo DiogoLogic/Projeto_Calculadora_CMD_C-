@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HelloWord
 {
-    class Program
+    class Calculadora
     {
 
         enum Menu { Soma =1, Subtracao, Divisao, Multiplicacao, Potencia, Raiz, Sair}
