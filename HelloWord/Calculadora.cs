@@ -49,21 +49,17 @@ namespace HelloWord
                         break;
                     case Menu.Sair:
                         escolheuSair = true;
-                        break;
-
-                        
+                        break;    
                 }
              
                 Console.Clear();
             }
-            //Feche
-      
-
+         
         }
 
         static void Somar()
         {
-            Console.WriteLine("Soma de dois numeros");
+            Console.WriteLine("Soma de dois números");
             Console.WriteLine("Digite o primeiro numero: ");
             int a = int.Parse(Console.ReadLine());
              Console.WriteLine("Digite o segundo numero: ");
@@ -78,7 +74,7 @@ namespace HelloWord
 
         static void Subtrair()
         {
-            Console.WriteLine("Subtrair  dois numeros: ");
+            Console.WriteLine("Subtrair dois números: ");
             Console.WriteLine("Digite o primeiro numero: ");
             int a = int.Parse(Console.ReadLine());
             Console.WriteLine("Digite o segundo numero: ");
@@ -92,7 +88,7 @@ namespace HelloWord
         }
         static void Dividir()
         {
-            Console.WriteLine("Divisão de dois numeros: ");
+            Console.WriteLine("Divisão de dois números: ");
             Console.WriteLine("Digite o primeiro numero: ");
             int a = int.Parse(Console.ReadLine());
             Console.WriteLine("Digite o segundo numero: ");
@@ -106,7 +102,7 @@ namespace HelloWord
         }
         static void Multiplicacao()
         {
-            Console.WriteLine("Multiplicação de dois numeros: ");
+            Console.WriteLine("Multiplicação de dois números: ");
             Console.WriteLine("Digite o primeiro numero: ");
             int a = int.Parse(Console.ReadLine());
             Console.WriteLine("Digite o segundo numero: ");
@@ -120,7 +116,7 @@ namespace HelloWord
         }
         static void Potencia()
         {
-            Console.WriteLine("Potencia de um numeros: ");
+            Console.WriteLine("Potencia de um números: ");
             Console.WriteLine("Digite a base: ");
             int baseNum = int.Parse(Console.ReadLine());
             Console.WriteLine("Digite o segundo numero: ");
@@ -135,7 +131,7 @@ namespace HelloWord
 
         static void Raiz()
         {
-            Console.WriteLine("Potencia de um numero: ");
+            Console.WriteLine("Potencia de um número: ");
             Console.WriteLine("Digite a base: ");
             int a = int.Parse(Console.ReadLine());
             double resultado = (int)Math.Sqrt(a);
