@@ -18,9 +18,6 @@ namespace CalculadoraCMD
             bool escolheuSair = false;
             while (!escolheuSair)
             {
-               
-
-
                 Console.WriteLine("Seja bem vindo a calculadora CMD, selecione uma das opções," +
                     " aperte ENTER para continuar e fazer as operações. \n");
              
